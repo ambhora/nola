@@ -1,0 +1,7 @@
+spack:
+  specs:
+    - nola-dev+test
+  repos:
+    - ./share/spack
+  concretizer:
+    unify: true

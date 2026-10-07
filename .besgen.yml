@@ -1,0 +1,5 @@
+project: nola
+template: cmake
+languages:
+  - cpp
+ci: github

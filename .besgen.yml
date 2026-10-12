@@ -1,0 +1,9 @@
+# --------------------------------------------------------------------------------------------------
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026 nola developers
+# --------------------------------------------------------------------------------------------------
+project: nola
+template: cmake
+languages:
+  - cpp
+ci: github

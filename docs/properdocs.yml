@@ -1,0 +1,13 @@
+# --------------------------------------------------------------------------------------------------
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026 nola developers
+# --------------------------------------------------------------------------------------------------
+site_name: nola
+docs_dir: web/content
+site_dir: web/site
+theme:
+  name: materialx
+plugins:
+  - cpdocs:
+      config: api/cpdocs.yml
+      mount: reference/api
